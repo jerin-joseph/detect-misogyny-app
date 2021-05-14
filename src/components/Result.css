@@ -1,0 +1,53 @@
+/* *{
+    border: 1px solid red;
+    box-sizing: border-box;
+} */
+
+.container{
+    /* box-sizing: border-box; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+iframe{
+    width: 100vw !important;
+}
+
+.headtab{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 60%;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 3rem 10rem 2rem;
+}
+
+.tweetid{
+    color: #00acee;
+}
+.tweetid span{
+    color: #636e72;
+    font-weight: normal;
+}
+.prediction{
+    color:#636e72;
+    /* background-color: white;
+    border-radius: 0.2rem;
+    padding: 0.3rem; */
+}
+.Non-misogynic{
+    color:#2ecc71;
+}
+
+.Misogynic{
+    color: red;
+}
+
+.report:hover{
+    color: tomato;
+}
